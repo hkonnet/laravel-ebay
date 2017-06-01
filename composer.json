@@ -1,8 +1,8 @@
 {
     "name": "hkonnet/laravel-ebay",
-    "description": "This package is wrapper for php Ebay sdk for laravel to automatic all the confgurations and make the skd ready to use.",
+    "description": "This package is wrapper for php Ebay sdk for laravel to automate all the configurations and make the skd ready to use.",
     "type": "library",
-    "keywords": ["ebay", "api", "sdk", "laravel", "laravel5"],
+    "keywords": ["ebay", "api", "sdk", "laravel", "laravel5", "php"],
     "license": "MIT",
     "require": {
         "php": ">=5.5",
