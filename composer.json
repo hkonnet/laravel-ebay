@@ -6,7 +6,7 @@
     "license": "MIT",
     "require": {
         "php": ">=5.5",
-        "dts/ebay-sdk-php": "~11.0|~12.0"
+        "dts/ebay-sdk-php": "~12.0"
     },
     "license": "MIT",
     "authors": [
