@@ -1,6 +1,6 @@
 # Laravel Ebay
 
-This package is a wrapper for [Ebay SDK](https://github.com/davidtsadler/ebay-sdk-php) written by David T. Sadler. 
+This package is based on [Ebay SDK](https://github.com/davidtsadler/ebay-sdk-php) written by David T. Sadler. 
 This package will organize all the configuration according to laravel and make you use the SDK with out doing any exceptional work or configurations. 
 
 ## Getting Started
