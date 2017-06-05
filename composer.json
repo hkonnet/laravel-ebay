@@ -15,5 +15,10 @@
             "email": "hkonnet@gmail.com"
         }
     ],
+    "autoload":{
+        "psr-4": {
+            "Hkonnet\\LaravelEbay\\": "src"
+        }
+    },
     "minimum-stability": "stable"
 }
