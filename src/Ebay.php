@@ -32,6 +32,9 @@ class Ebay
         return config('ebay.'.config('ebay.mode').'.authToken');
     }
 
+    /*
+     * Return configurations from Config
+     */
     public function getConfig(){
         return $this->config;
     }
