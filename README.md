@@ -192,6 +192,7 @@ use \DTS\eBaySDK\Shopping\Types;
     $service = new FindingService($config);
 
 // Assign the keywords.
+    $request = new \DTS\eBaySDK\Finding\Types\FindItemsByKeywordsRequest;
     $request->keywords = 'Harry Potter';
 
 // Ask for the first 25 items.
