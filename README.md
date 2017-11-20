@@ -161,7 +161,7 @@ use \DTS\eBaySDK\Finding\Types;
     $request->keywords = 'Harry Potter';
 
 // Ask for the first 25 items.
-    $request->paginationInput = new \Types\PaginationInput();
+    $request->paginationInput = new Types\PaginationInput();
     $request->paginationInput->entriesPerPage = 25;
     $request->paginationInput->pageNumber = 1;
 
@@ -197,7 +197,7 @@ use \DTS\eBaySDK\Finding\Types;
     $request->keywords = 'Harry Potter';
 
 // Ask for the first 25 items.
-    $request->paginationInput = new \Types\PaginationInput();
+    $request->paginationInput = new Types\PaginationInput();
     $request->paginationInput->entriesPerPage = 25;
     $request->paginationInput->pageNumber = 1;
 
