@@ -150,17 +150,18 @@ This example will call the findItemsByKeywords operation
 **Method 1:**
 ```php
 use \Hkonnet\LaravelEbay\EbayServices;
-use \DTS\eBaySDK\Shopping\Types;
+use \DTS\eBaySDK\Finding\Types;
   
 // Create the service object.
-$ebay_service = new EbayServices();
-$service = $ebay_service->createFinding();
+    $ebay_service = new EbayServices();
+    $service = $ebay_service->createFinding();
 
 // Assign the keywords.
+    $request = new Types\FindItemsByKeywordsRequest();
     $request->keywords = 'Harry Potter';
 
 // Ask for the first 25 items.
-    $request->paginationInput = new \DTS\eBaySDK\Finding\Types\PaginationInput();
+    $request->paginationInput = new \Types\PaginationInput();
     $request->paginationInput->entriesPerPage = 25;
     $request->paginationInput->pageNumber = 1;
 
@@ -185,18 +186,18 @@ $service = $ebay_service->createFinding();
 **Method 2:**
 ```php
 use DTS\eBaySDK\Finding\Services\FindingService;
-use \DTS\eBaySDK\Shopping\Types;
+use \DTS\eBaySDK\Finding\Types;
   
 // Create the service object.
     $config = Ebay::getConfig();
     $service = new FindingService($config);
 
 // Assign the keywords.
-    $request = new \DTS\eBaySDK\Finding\Types\FindItemsByKeywordsRequest;
+    $request = new Types\FindItemsByKeywordsRequest();
     $request->keywords = 'Harry Potter';
 
 // Ask for the first 25 items.
-    $request->paginationInput = new \DTS\eBaySDK\Finding\Types\PaginationInput();
+    $request->paginationInput = new \Types\PaginationInput();
     $request->paginationInput->entriesPerPage = 25;
     $request->paginationInput->pageNumber = 1;
 
