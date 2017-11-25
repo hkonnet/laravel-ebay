@@ -15,7 +15,7 @@ class EbayServices
         $this->sdk = new Sdk($config);
     }
 
-    function __call($name, $arguments)
+    function __call($name, $args)
     {
         if (strpos($name, 'create') === 0) {
             $service = 'create'.substr($name, 6);
