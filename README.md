@@ -24,7 +24,7 @@ Or add it to `composer.json` manually:
 
 ```json
 "require": {
-    "hkonnet/laravel-ebay": "~1.0"
+    "hkonnet/laravel-ebay": "^1.2"
 }
 ```
 
