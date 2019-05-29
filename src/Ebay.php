@@ -35,7 +35,8 @@ class Ebay
     /*
      * Return configurations from Config
      */
-    public function getConfig(){
+    public function getConfig($args=[]){
+        $this->config['siteId'] = isset($args['siteId'])?$args['siteId']:$this->config['siteId'];
         return $this->config;
     }
 }
