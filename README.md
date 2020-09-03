@@ -1,6 +1,9 @@
 # Laravel Ebay
 
-[![Latest Stable Version](https://poser.pugx.org/phpunit/phpunit/v)](//packagist.org/packages/phpunit/phpunit) [![Total Downloads](https://poser.pugx.org/phpunit/phpunit/downloads)](//packagist.org/packages/phpunit/phpunit) [![Monthly Downloads](https://poser.pugx.org/hkonnet/laravel-ebay/d/monthly)](//packagist.org/packages/hkonnet/laravel-ebay) [![License](https://poser.pugx.org/phpunit/phpunit/license)](//packagist.org/packages/phpunit/phpunit)
+[![Latest Stable Version](https://poser.pugx.org/hkonnet/laravel-ebay/v)](//packagist.org/packages/hkonnet/laravel-ebay)
+[![Total Downloads](https://poser.pugx.org/hkonnet/laravel-ebay/downloads)](//packagist.org/packages/hkonnet/laravel-ebay)
+[![Monthly Downloads](https://poser.pugx.org/hkonnet/laravel-ebay/d/monthly)](//packagist.org/packages/hkonnet/laravel-ebay)
+[![License](https://poser.pugx.org/hkonnet/laravel-ebay/license)](//packagist.org/packages/hkonnet/laravel-ebay)
 
 This package is based on [Ebay SDK](https://github.com/davidtsadler/ebay-sdk-php) written by David T. Sadler. 
 This package will organize all the configuration according to laravel and make you use the SDK with out doing any exceptional work or configurations. 
